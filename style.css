@@ -185,3 +185,8 @@ figcaption {
 .form-input:checked ~ .form-label {
   color: #ffffff;
 }
+.containerX  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

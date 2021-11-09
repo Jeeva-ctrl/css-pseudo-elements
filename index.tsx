@@ -27,7 +27,7 @@ class App extends Component<AppProps, AppState> {
             aliquip ex ea commodo consequat.
           </blockquote>
         </div>
-        <div>
+        <div className="containerX">
           <ul class="name-list">
             <li>John</li>
             <li>Michael</li>
