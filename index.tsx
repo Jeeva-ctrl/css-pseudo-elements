@@ -51,6 +51,20 @@ class App extends Component<AppProps, AppState> {
             <figcaption>Chevrolet</figcaption>
           </figure>
         </div>
+        <form class="form flex-center">
+          <div class="form-row flex-center">
+            <input type="radio" name="gender" id="Male" class="form-input" />
+            <label for="Male" class="form-label">
+              Male
+            </label>
+          </div>
+          <div class="form-row flex-center">
+            <input type="radio" name="gender" id="Female" class="form-input" />
+            <label for="Female" class="form-label">
+              Female
+            </label>
+          </div>
+        </form>
       </>
     );
   }
