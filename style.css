@@ -93,3 +93,34 @@ input:checked::after {
   opacity: 1;
   transform: translate(170%, -50%);
 }
+.container2 {
+  margin: 0 auto;
+  width: 70%;
+  position: relative;
+}
+figure {
+  width: 100%;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+figure::before {
+  background-image: linear-gradient(to top right, #1a1a1a, transparent);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: '';
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0.7em;
+  margin: 0;
+  font-size: 3em;
+  font-weight: bold;
+  color: #ffffff;
+}

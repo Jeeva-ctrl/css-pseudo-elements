@@ -41,6 +41,16 @@ class App extends Component<AppProps, AppState> {
             <input type="checkbox" />
           </label>
         </form>
+
+        <div class="container2">
+          <figure>
+            <img
+              src="https://i.imgur.com/jFKonXQ.jpeg"
+              alt="White and Red Chevrolet"
+            />
+            <figcaption>Chevrolet</figcaption>
+          </figure>
+        </div>
       </>
     );
   }
